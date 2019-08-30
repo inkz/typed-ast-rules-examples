@@ -38,8 +38,9 @@ app.use(async ctx => {
 app.use(async ctx => {
   const val1 = ctx.request.query.val1
   ctx.body = {data: {
-    name: require(val1)
-  }}
+      name: require(val1)
+    }
+  }
 })
 
 // true
@@ -92,7 +93,6 @@ app.use(async ctx => {
 
 // true
 app.use(async ctx => {
-  const val9 = 
   const data9 = require('vbn' + ctx.querystring)
   ctx.body = {data9}
 })
