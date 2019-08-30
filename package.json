@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/inkz/typed-ast-rules-inputs#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "koa": "^2.8.1"
   }
 }
