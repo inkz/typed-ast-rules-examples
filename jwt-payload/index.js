@@ -1,5 +1,5 @@
 const jsonwt = require('jsonwebtoken')
-const jose = require('@panva/jose')
+const jose = require('jose')
 const { JWK, JWS, JWT } = jose
 
 const payload = {
